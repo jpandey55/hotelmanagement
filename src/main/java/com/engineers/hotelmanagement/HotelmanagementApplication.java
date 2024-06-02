@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.engineers")
 public class HotelmanagementApplication {
 
 	private static final Logger LOGGER = Logger.getLogger(HotelmanagementApplication.class.getName());
